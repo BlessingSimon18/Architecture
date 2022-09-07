@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.back-video{
+    position: absolute;
+    right:0;
+    left: 0;
+    bottom:0;
+    z-index: -1; 
+    margin-bottom: -200px;
+    width: 100%;
+}
+main{
+    max-width: 100%;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+/* @media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+} */
+
+.hero{
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(https://www.studia-54.com/upload/iblock/05a/dwes5d4qma2uzk5yoxar0859eth1djxx/Skype_Video.mp4);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgba(189, 185, 185, .5) 10px 10px 10px 10px;
+}
+/* .logo:hover{
+    color: #443f3f;
+    transition: .4s;
+    transform: scale(1.5);
+} */
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.content{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 8%; */
+    /* transform: translateY(-50%); */
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(167, 135, 135);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: rgb(167, 135, 135);
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+h4{
+    color: #fcfc;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    border: 2px #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px #f9004d;
+    outline: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 4px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #443f3f;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(167, 135, 135);
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: #fcfc;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 13px 30px;
+    font-weight: bold;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.services{
+    /* background-image: url(https://i.pinimg.com/originals/74/7b/f8/747bf8f2275066bd13004579fd281a95.jpg); */
+    background-color: #6a6464;
+    /* background-size: cover;
+    background-position: center; */
+    width: 100%;
+    padding-top: 100px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    /* padding: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; */
+    /* padding-top: 20px; */
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 0px 5px 10px rgb(167, 135, 135);
+}
+.box .box_1, .box_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.box .box_2, .box_4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.box .image_1{
+    width: 60%;
+    height: 365px;
+    /* border: 2px solid crimson; */
+    background-image: url(https://www.westend61.de/images/0000849735pw/construction-workers-talking-at-construction-site-CAIF09301.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box .image_2{
+    width: 60%;
+    height: 365px;
+    /* border: 2px solid crimson; */
+    background-image: url(https://s3.amazonaws.com/interruptwebsite/s3general/306334/Blog_2021_Mar_Architects_680_675_ee74ad1597f329d0fc7685b76dd6ccbb.png);
+    background-size: cover;
+    background-position: center;
+}
+.box .image_3{
+    width: 60%;
+    height: 365px;
+    background-image: url(https://i.ytimg.com/vi/vZHPJPRNnQA/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box .image_4{
+    width: 60%;
+    height: 365px;
+    background-image: url(https://archello.s3.eu-central-1.amazonaws.com/images/2018/01/31/CAS4CurvedLandscapeGardenDesign.1517371838.6914.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box .card{
+    height: 365px;
+    width: 40%;
+    padding: 20px 35px;
+    /* background-color: #E2E8CE; */
+    /* border-radius: 20px; */
+    /* margin: 15px; */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+/* .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+} */
+.card h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p{
+    color: #262626;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px; 
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 9px 22px;
+    font-weight: bold;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+#contact-me{
+    width: 100%;
+    height: 290px;
+    background-color: #443f3f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* background-image: url(https://cceonlinenews.com/wp-content/uploads/2020/08/List-of-top-architectural-firms-in-south-africa.jpg); */
+    /* background-size: cover;
+    background-position: center;
+    width: 100%; */
+}
+#contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#contact-me .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 9px 22px;
+    font-weight: bold;
+    transition: .4s;
+}
+#contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #6a6464;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(194, 189, 189);
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+footer p:nth-child(2), footer h1{
+    font-size: 300%;
+    /* color: rgb(214, 62, 62); */
+    width: 500px;
+    color: rgb(167, 135, 135);
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+}
+footer .p_two{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #262626;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
