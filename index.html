@@ -10,25 +10,41 @@
 </head>
 <body>
     <main>
-        <div class="hero">
+        <section id="hero">
             
             
             <nav>
                 <video autoplay loop muted plays-inline class="back-video" 
-                poster="/upload/resize_cache/iblock/ad4/qodr7lu05pbajoi9zs8rscyl9esdbyeu/637_441_2/1.jpg" controls>
+                poster="/upload/resize_cache/iblock/ad4/qodr7lu05pbajoi9zs8rscyl9esdbyeu/637_441_2/1.jpg">
                     <source src="https://www.studia-54.com/upload/iblock/05a/dwes5d4qma2uzk5yoxar0859eth1djxx/Skype_Video.mp4" type="video/mp4">
                 </video>
                 <!-- <h2 class="logo">Swi- <span>Ft</span></h2> -->
                 <a href="#contact-me"><h2 class="logo"><img src="./assets/Swift.png" alt="#" width="100px"></h2></a>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="./LINKS/form.html">Contact Us</a></li>
                 </ul>
-                <a href="#" class="btn">Connect</a>
+                <a href="#" id="button" class="btn">Connect</a>
+            
+                <div class="mobile__navbar">
+                    <a href="#contact-me"><h2 class="logo"><img src="./assets/Swift.png" alt="#" width="100px"></h2></a>
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#header" data-after="Dashboard">Dashboard</a></li>
+                        <li><a href="#Documentation" data-after="Documentation">About Us</a></li>
+                        <li><a href="#Documentation" data-after="Documentation">Services</a></li>
+                        <li><a href="#header" data-after="Download">Download</a></li>
+                        <li><a href="#footer" data-after="Contact">Projects</a></li>
+                        <a href="./LINKS/form.html" type="button" class="cta1">Contact Us</a>
+                    </ul>    
+                </div>
+
             </nav>
+
+
             <div class="content">
                 <h4>Connect with</h4>
                 <h1>SWIFT <span>ARCHITECTURE</span></h1>
@@ -36,14 +52,14 @@
                 <div class="newsletter">
                     <form>
                         <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                        <input type="submit" name="submit" value="Let's Start" >
+                        <input type="submit" id="submit" name="submit" value="Let's Start" >
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
         
         <!-- About Section -->
-        <section class="about">
+        <section id="about">
             <div class="main">
                 <img src="https://static.dezeen.com/uploads/2018/07/marc-goodwin-archmospheres-dutch-architecture-studios-offices-_dezeen_2364_sq_e.jpg" alt="#">
                 <div class="about-text">
@@ -58,7 +74,7 @@
         </section>
 
         <!-- Service section start -->
-        <div class="services">
+        <section id="services">
             <div class="title">
                 <h2>Our Services</h2>
             </div>
@@ -145,13 +161,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
             
         <!--Contact Me -->
-        <div id="contact-me">
+        <section id="contact-me">
             <p>Give Your Dreams A Shape Of Reality.  </p>
             <a class="button-two" href="#">Let's Work</a>
-        </div>
+        </section>
 
         <!-- footer start -->
         <footer>
