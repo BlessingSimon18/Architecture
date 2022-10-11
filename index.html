@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/27ed1e60c1.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
 <body>
     <main>
@@ -21,17 +22,18 @@
                             <div class="logo"><a href="#contact-me"><h2><img src="./assets/Swift.png" alt="#" width="100px" height="70px"></h2></a></div>
                             <div class="hamburger"><div class="bar"></div></div>
                             <ul>
-                                <li><a href="#header" data-after="Dashboard">Dashboard</a></li>
-                                <li><a href="#Documentation" data-after="Documentation">About Us</a></li>
-                                <li><a href="#Documentation" data-after="Documentation">Services</a></li>
-                                <li><a href="#header" data-after="Download">Download</a></li>
-                                <li><a href="#footer" data-after="Contact">Projects</a></li>
-                                <a href="./LINKS/form.html" type="button" class="cta1">Contact Us</a>
+                                <li><a href="#header" data-after="Home">Home</a></li>
+                                <li><a href="#about" data-after="About Swift">About Us</a></li>
+                                <li><a href=".projects" data-after="Services">Services</a></li>
+                                <li><a href=".projects" data-after="Services">Blogs</a></li>
+                                <li><a href="#projects" data-after="Contact">Projects</a></li>
+                                <li><a href="#projects" data-after="Contact">Contact Us</a></li>
+                                
                             </ul>    
                         </div>
                         <div class="rightContainer">
                             <div class="header_mail">
-                                <a href="mailto:swiftarchitecture247@gmail.com"><i class="fa-thin fa-envelope"></i></a>
+                                <a href="mailto:swiftarchitecture247@gmail.com"><iconify-icon icon="carbon:email"></iconify-icon></a>
                             </div>
                             <div class="languageMenu">
                                 <div class="languageMenu_item">
@@ -41,6 +43,7 @@
                         </div>
                     </div>
                 </div>
+                
             </section>
             
             <nav>
@@ -58,18 +61,23 @@
             <div class="content-main">
                 <div class="content_wrapper" data-aos="fade-up">
                     <h4>Connect with</h4>
-                    <h1>SWIFT <span>ARCHITECTURE</span></h1>
+                    <h1>SWIFT ARCHITECTURE</h1>
                     <h3>Bringing your wildest dreams into simple reality</h3>
                     
                 </div>
-                <div class="newsletter">
-                    <form>
+                <div class="newsletter" data-aos="fade-right">
+                    <div class="buttonContainer" data-aos="fade-right"data-aos-duration="2000" data-aos-delay="1000">
+                        <a href="" class="button">See Projects</a>
+                    </div>
+                    <!-- <form>
                         <input type="email" name="email" id="mail" placeholder="Enter Your Email">
                         <input type="submit" id="submit" name="submit" value="Let's Start" >
-                    </form>
+                    </form> -->
                 </div>
                 
+                
             </div>
+            <a href="https://wa.me/2348025716755/?text=Hello, Swift Architecture" class="whatsapp button"><iconify-icon icon="bi:whatsapp" style="color: black;"></iconify-icon></a>
             
         </section>
         
@@ -101,7 +109,7 @@
                             . </p>
                         <div class="btnC">
                             <div class="buttonContainer" data-aos="fade-up-right">
-                                <a href="" class="button">Contact Us</a>
+                                <a href="" class="button">Want to know more?</a>
                             </div>
                         </div>
                     </div>
@@ -123,14 +131,19 @@
                     </div>
                 </div>
                 <div class="block-description">
-                    <div class="description" data-aos="fade-up">
+                    
+                    <!-- <div class="description" data-aos="fade-up">
+                        <img class="slide" src="../Architecture/assets/interior-design-images-apartment-interior-design.jpg" style="width:100%;">
+                        <img class="slide" src="../Architecture/assets/ikoyi build.jpg" style="width:100%;">
+                        <img class="slide" src="../Architecture/assets/homes1.jpg" style="width:100%;">
+                    </div>   -->
                         <div class="square" data-aos="fade-up">
                             <div class="icon">
                                 <img src="../assets/diamond.png" alt=""
                                  height="40px">
                             </div>
                             <div class="square_text">
-                                <h3>Curated Design</h3>
+                                <h2>Curated Design</h2>
                                 <p>
                                     We partner with our Client
                                 becoming a part of their development 
@@ -146,7 +159,7 @@
                                  height="40px">
                             </div>
                             <div class="square_text">
-                                <h3>Construction</h3>
+                                <h2>Construction</h2>
                                 <p>
                                     We stay with a project from 
                                 conceptualization to completion 
@@ -160,7 +173,7 @@
                                  height="40px">
                             </div>
                             <div class="square_text">
-                                <h3>Interior Design</h3>
+                                <h2>Interior Design</h2>
                                 <p>
                                     The stylish interior makes us want 
                                 to spend more time in it. We 
@@ -177,7 +190,7 @@
                                  height="40px">
                             </div>
                             <div class="square_text">
-                                <h3>Landscape Design</h3>
+                                <h2>Landscape Design</h2>
                                 <p>
                                     Our landscape designs reflects the belief
                         that any property's intrinsic value lies in 
@@ -186,7 +199,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
 
@@ -212,53 +225,55 @@
             <section id="clients">
                 <div class="div"></div>
                 <div class="square1">
-                    <div class="square" data-aos="fade-up">
-                        <div class="icon">
+                    <div class="square">
+                        <!-- <div class="icon">
                             <img src="../assets/diamond.png" alt=""
                              height="40px">
+                        </div> -->
+                        <h2 class="heading">What Our Clients Think</h2>
+                        <div class="square_text" data-aos="fade-up">
+                        <!-- <div class="square_text_mask"></div>   -->
+                            
+                            <div class="client"> 
+                                <img src="../Architecture/assets/308.png" style="width: 100%;">
+                                <div class="words">
+                                    <p>
+                                        Build with the world's most intuitive firm, Swift Architecture.
+                                        I can't believe believe my dreams actually came into reality. 
+                                    </p>
+                                </div>
+                                <!-- <div class="words1">
+                                    
+                                </div> -->
+                            </div>
+                            <div class="client">
+                                <img src="../Architecture/assets/257.jpg" style="width: 100%;">
+                                <div class="words">
+                                    <p>
+                                        I cant believe there is a firm as meticulous as Swift!!!
+                                        I can't believe believe my dreams actually came into reality. 
+                                    </p>
+                                </div>
+                                <!-- <div class="words2">
+                                    
+                                </div> -->
+                            </div>
+                            <div class="client">
+                                <img src="../Architecture/assets/194.jpg" style="width: 100%;">
+                                <div class="words" >
+                                    <p>
+                                        Build with the world's most intuitive firm, Swift Architecture.
+                                        I can't believe believe my dreams actually came into reality. 
+                                    </p>
+                                </div>
+                                <!-- <div class="words3">
+                                    
+                                </div> -->
+                            </div>
+                            <button class="button right" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="button left" onclick="plusDivs(1)">&#10095;</button>
                         </div>
-                        <div class="square_text">
-                            <h3>What Our Clients Think</h3>
-                            <!-- <p>
-                                Our landscape designs reflects the belief
-                    that any property's intrinsic value lies in 
-                    the site's natural beauty, vastness and 
-                    richness of its landscape.
-                            </p> -->
-                            <div class="client">
-                                <div class="name1">
-
-                                </div>
-                                <div class="words1">
-                                    <p>
-                                        Build with the world's most intuitive firm, Swift Architecture.
-                                        I can't believe believe my dreams actually came into reality. 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="client">
-                                <div class="name2">
-
-                                </div>
-                                <div class="words2">
-                                    <p>
-                                        Build with the world's most intuitive firm, Swift Architecture.
-                                        I can't believe believe my dreams actually came into reality. 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="client">
-                                <div class="name3">
-
-                                </div>
-                                <div class="words3">
-                                    <p>
-                                        Build with the world's most intuitive firm, Swift Architecture.
-                                        I can't believe believe my dreams actually came into reality. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -273,10 +288,6 @@
         <!-- footer start -->
         <footer>
             <div class="footer-wrapper">
-                    <!-- <div class="footer-logo">
-                        <div class="logo"><a href="#contact-me"><h2><img src="./assets/Swift.png" alt="#" width="100px" height="70px"></h2></a></div>
-                    </div> -->
-        
                 
                 <div class="footer-contents">
                     <div class="footer-text">
@@ -287,12 +298,12 @@
                     <div class="company">
                         <h2>Company</h2>
                         <ul>
-                            <li><a href="#header" data-after="Dashboard">Dashboard</a></li>
-                            <li><a href="#Documentation" data-after="Documentation">About Us</a></li>
-                            <li><a href="#Documentation" data-after="Documentation">Services</a></li>
-                            <li><a href="#header" data-after="Download">Download</a></li>
-                            <li><a href="#footer" data-after="Contact">Projects</a></li>
-                            <a href="./LINKS/form.html" type="button" class="cta1">Contact Us</a>
+                            <li><a href="#header" data-after="Home">Home</a></li>
+                                <li><a href="#about" data-after="About Swift">About Us</a></li>
+                                <li><a href=".projects" data-after="Services">Services</a></li>
+                                <li><a href=".projects" data-after="Services">Blogs</a></li>
+                                <li><a href="#projects" data-after="Contact">Projects</a></li>
+                                <li><a href="#projects" data-after="Contact">Contact Us</a></li>
                         </ul>  
                     </div>
 
@@ -311,19 +322,19 @@
                         <h2>Social Media</h2>
                         <div class="social">
                             <div class="buttonContainer">
-                                <a href="" class="button"><i class="fa-brands fa-facebook"></a>
+                                <a href="" class="button"><iconify-icon icon="eva:facebook-fill" style="color: black;"></iconify-icon></a>
                             </div>
                             <div class="buttonContainer">
-                                <a href="" class="button"><i class="fa-brands fa-twitter"></a>
+                                <a href="" class="button"><iconify-icon icon="fe:twitter" style="color: black;"></iconify-icon></a>
+                            </div>
+                            <div  class="buttonContainer">
+                                <a href="mailto:swiftarchitecture247@gmail.com" class="button"><iconify-icon icon="bi:instagram" style="color: black;"></iconify-icon></a>
                             </div>
                             <div class="buttonContainer">
-                                <a href="" class="button"><i class="fa-brands fa-instagram"></a>
+                                <a href="callto:+2348025716755" class="button"><iconify-icon icon="akar-icons:linkedin-v2-fill" style="color: black;"></iconify-icon></a>
                             </div>
                             <div class="buttonContainer">
-                                <a href="callto:+2348025716755" class="button"><i class="fa-brands fa-linkedin"></a>
-                            </div>
-                            <div class="buttonContainer">
-                                <a href="https://wa.me/2348025716755/?text=Hello, Swift Architecture" class="button"><i class="fa-brands fa-whatsapp"></a>
+                                <a href="https://wa.me/2348025716755/?text=Hello, Swift Architecture" class="button"><iconify-icon icon="bi:whatsapp" style="color: black;"></iconify-icon></a>
                             </div>
                         </div>
                     </div>
@@ -341,6 +352,8 @@
     </main>
 
     <script src="index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?
+    cb=googleTranslateElementInit"></script>
     
     <script>
         AOS.init({
