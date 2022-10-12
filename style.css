@@ -50,7 +50,7 @@ nav{
     background-image: radial-gradient(circle at 50% 50%,rgba(51,51,51,.5),rgba(51,51,51,.3));
 }
 main{
-    max-width: 100%;
+    width: 100%;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -947,10 +947,6 @@ footer h2{
     /* .mobile__navbar ul li {
         display: flex;
     } */
-    .main{
-        flex-wrap: wrap;
-        
-    }  
     .about-text{
         width: 80%;
         padding-top: 100px;
