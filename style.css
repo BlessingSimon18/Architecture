@@ -999,8 +999,11 @@ footer h2{
         margin-top: 250px;
     }
     .footer-wrapper{
-        width: 70%;
+        width: 80%;
         padding-top: 50px;
+    }
+    .footer-project{
+    padding: 0 20px;
     }
 }
 
