@@ -4,17 +4,17 @@
     font-family: sans-serif;
     box-sizing: border-box;
     letter-spacing: 1px;
-    overflow-x: hidden;
+    
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     /* background-color: rgb(49, 49, 49); */
     /* background-color: #fff; */
     background-color: transparent;
     color: #000;
-    width: 100vw;
 }
 
 
@@ -52,7 +52,7 @@ nav{
     background-image: radial-gradient(circle at 50% 50%,rgba(51,51,51,.5),rgba(51,51,51,.3));
 }
 main{
-    width: 100%;
+    max-width: 100%;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -837,7 +837,7 @@ footer{
    border-top: #d18f00 4px solid;
 }
 .footer-wrapper{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     /* align-items: center;
@@ -999,6 +999,7 @@ footer h2{
         margin-top: 250px;
     }
     .footer-wrapper{
+        width: 80%;
         padding-top: 50px;
     }
 }
