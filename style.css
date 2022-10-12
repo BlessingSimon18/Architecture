@@ -58,12 +58,12 @@ main{
         height: auto;
     }
 }
-@media (min-aspect-ratio: 16/9){
+/* @media (min-aspect-ratio: 16/9){
     .back-video{
         width: auto;
         height: 100%;
     }
-} 
+} */
 
 #hero{
     height: 100vh;
