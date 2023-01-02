@@ -860,7 +860,7 @@ footer{
     /* align-items: center;
     justify-content: center; */
     margin: auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .footer-contents{
     width: 100%;
@@ -1155,3 +1155,10 @@ footer h2{
     }
 }
 /* END RESPONSIVENESS */
+
+
+
+/* FORM STYLE */
+
+
+/* END FORM STYLE */

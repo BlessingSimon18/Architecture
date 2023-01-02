@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    width: 100vw;
+    color: #000;
+    font-size: 17px;
+    font-weight: bolder;
+}
+h1{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bolder;
+}
+#container{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    line-height: 50px;
+    /* height: 60%; */
+    /* border-radius: 10px; */
+    padding: 50px;
+}
+#top{
+    width: 40%;
+    background-color: #29323c;
+    border-radius: 10px 0 0 10px;
+    padding: 25px;
+}
+
+#bottom{
+    width: 40%;
+    background-color: #12161a;
+    border-radius: 0 10px 10px 0;
+    padding: 25px;
+}
+p{
+    color: #29323c;
+}
+span{
+    color: #fff;
+}
+h4{
+    font-size: 17px;
+    padding-top: 22px;
+}
+.form-control{
+    background-color: transparent;
+    width: 100%;
+}
+.form-control:focus {
+    color: #fff;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    
+}
+.form-control:placeholder-shown{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+}
+#message, #subject, #email, #name{
+    border-top: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
+.buttonContainer{
+    width: 50%;
+    /* font-size: 15px; */
+}
+.button{
+    color: #fff;
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+}
+a{
+    color: #29323c;
+}
+.icon{
+    margin-right: 20px;
+}
+/* RESPONSIVENESS */
+/* Media Query for Tablet */
+@media screen and (max-width: 992px){
+    body{
+        padding: 40px;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }  
+    #top{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    } 
+    #bottom{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    } 
+}
