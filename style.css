@@ -49,7 +49,8 @@ nav{
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: radial-gradient(circle at 50% 50%,rgba(51,51,51,.5),rgba(51,51,51,.3));
+    /* background-image: radial-gradient(circle at 50% 50%,rgba(51,51,51,.5),rgba(51,51,51,.3)); */
+    background-image: radial-gradient(circle at 50% 50%,rgba(0,0,0,.8),rgba(0,0,0,.8));
 }
 main{
     max-width: 100%;
@@ -62,7 +63,7 @@ main{
 }
 /* @media (min-aspect-ratio: 16/9){
     .back-video{
-        width: auto;
+        width: 100%;
         height: 100%;
     }
 } */
@@ -70,7 +71,7 @@ main{
 #hero{
     height: 100vh;
     width: 100%;
-    background-image: url(https://www.studia-54.com/upload/iblock/05a/dwes5d4qma2uzk5yoxar0859eth1djxx/Skype_Video.mp4);
+    background-image: url(https://reformosa.pt/public/uploads/_/originals/c9e46682-1225-59f7-8596-67a74b011928.mp4);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -393,7 +394,8 @@ h1{
 }
 h3{
     /* color: rgb(167, 135, 135); */
-    background-image: linear-gradient(to left, #d18f00, white,#d18f00, white, #d18f00);
+    /* background-image: linear-gradient(to left, #d18f00, white,#d18f00, white, #d18f00); */
+    background-color: #fff;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
